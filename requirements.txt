@@ -4,3 +4,5 @@ ollama
 datasets
 rich
 gradio
+dotenv
+fpdf

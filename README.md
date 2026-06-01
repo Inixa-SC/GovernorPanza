@@ -14,10 +14,11 @@ echo "GOVERNOR_OLLAMA_MODEL=qwen2.5-coder" >> .env
 python -m venv venv
 . venv/bin/activate
 pip install -r requirements.txt
+python download_datasets.py
 python benchmark.py
 ```
 
-Esto comenzará un benchmark sobre el modelo <qwen2.5-coder> en el servidor ollama de ai.inixa.net.
+Esto comenzará un benchmark sobre el modelo <qwen2.5-coder> en el servidor ollama en <tu-servidor-de-ollama>.
 Se puede usar el archivo .env para poner otro target.
 
 Para levantar un chatbot con el verificador activo se puede usar.
