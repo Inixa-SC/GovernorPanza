@@ -1,0 +1,6 @@
+codeshield
+pytest
+ollama
+datasets
+rich
+gradio
